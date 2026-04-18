@@ -319,21 +319,23 @@ The final assembly is essentially chromosome-level and closely matches the *S. c
 ```
 vgp-genome-assembly/
 ├── README.md                    ← This file
-├── methods/
+├── Methods/
 │   ├── 01_preprocessing.md      ← Cutadapt adapter removal details
 │   ├── 02_kmer_profiling.md     ← Meryl + GenomeScope2 methods
 │   ├── 03_hifiasm_assembly.md   ← hifiasm Hi-C mode details
 │   ├── 04_evaluation.md         ← gfastats, BUSCO, Merqury
 │   ├── 05_bionano.md            ← Bionano scaffolding
 │   └── 06_hic_scaffolding.md    ← YaHS + Pretext
-├── results/
+├── Results/
 │   ├── genomescope_summary.txt  ← GenomeScope2 output (paste from Galaxy)
 │   ├── gfastats_hap1_hap2.txt   ← Assembly stats table
 │   ├── busco_summary_hap1.txt   ← BUSCO short summary
 │   ├── busco_summary_hap2.txt
 │   └── screenshots/             ← Contact map images, BUSCO plots, etc.
-├── parameters/
+├── Parameters/
 │   └── tool_parameters.md       ← All tool parameters in one place
+├── Discussion/
+│   └── Discussion.md       ← All tool parameters in one place
 └── glossary.md                  ← Key terms reference
 ```
 
